@@ -25,4 +25,15 @@ const app = Vue.createApp({
   },
 });
 
+// app.component("friend-contact", {
+//   data() {
+//     return { detailsAreVisible: false };
+//   },
+//   methods: {
+//     toggleDetails() {
+//       this.detailsAreVisible = !this.detailsAreVisible;
+//     },
+//   },
+// });
+
 app.mount("#app");
